@@ -4,5 +4,6 @@ quizzes:
   - path: quizzes/common-test-2025/quiz.md
   - path: quizzes/personality-type-5d-80/quiz.md
   - path: quizzes/ai-workstyle-50/quiz.md
+  - path: quizzes/ai-rd-engineer-screening-50/quiz.md
   - path: quizzes/tech-media-ops-intern-screening/quiz.md
   - path: quizzes/parser-smoke-5/quiz.md
