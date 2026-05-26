@@ -22,6 +22,9 @@
 │   │   └── assets/
 │   └── tech-media-ops-intern-screening/
 │       └── quiz.md
+├── job-descriptions/
+│   ├── algorithm-intern/
+│   │   └── jd.md
 └── skills/
 ```
 
@@ -38,6 +41,13 @@
 其中 `common-test-2025`、`tech-media-ops-intern-screening` 与 `ai-rd-engineer-screening-50` 属于招聘/筛选型混合问卷。
 `ai-rd-engineer-screening-50` 属于研发工程习惯 / AI 工程筛选方向的高难度混合问卷。
 `parser-smoke-5` 用于验证 welcome/end image、media、traits、`[rubric]`、`[llm]` 等解析要素。
+
+## 职位列表
+
+- `algorithm-intern`: 算法实习生
+  - 关联问卷：`ai-rd-engineer-screening-50`、`common-test-2025`
+
+职位文件位于 `job-descriptions/<jd_key>/jd.md`，使用 YAML Front Matter 维护 `id`、`title`、`status`、`tags` 与 `related_quizzes`。正文保存岗位职责、任职要求和筛选侧重点。
 
 ## Skills
 
